@@ -187,19 +187,6 @@ window.CS_ACHIEVEMENTS = [
     text: "The Sun-watching SOHO spacecraft was never designed to hunt comets, yet volunteers scanning its images pushed the total past 5,000, making it the most prolific comet finder in history.",
     catalog: "SOHO-5000", link: "https://sungrazer.nrl.navy.mil" },
 
-  { name: "Rubin Comet Catchers", field: "astronomy", icon: "fa-solid fa-meteor", url: "https://www.zooniverse.org/projects/orionnau/rubin-comet-catchers",
-    desc: "Check comet candidates in early images from the Vera C. Rubin Observatory's ten-year sky survey.",
-    time: "minutes", where: "online", skill: "none" },
-  { name: "Kilonova Seekers", field: "astronomy", icon: "fa-solid fa-burst", url: "https://www.zooniverse.org/projects/tkillestein/kilonova-seekers",
-    desc: "Spot new cosmic explosions in near-real-time data from the GOTO telescopes, including possible counterparts to gravitational waves.",
-    time: "minutes", where: "online", skill: "none" },
-  { name: "Gravity Spy", field: "astronomy", icon: "fa-solid fa-wave-square", url: "https://www.zooniverse.org/projects/zooniverse/gravity-spy",
-    desc: "Sort noise 'glitches' in LIGO data so scientists can find their causes and improve gravitational-wave detectors.",
-    time: "minutes", where: "online", skill: "none" },
-  { name: "Cosmic Collisions", field: "astronomy", icon: "fa-solid fa-circle-half-stroke", url: "https://www.zooniverse.org/projects/gregtroiani/cosmic-collisions",
-    desc: "Find merging galaxies in new James Webb Space Telescope images to learn how black holes grow.",
-    time: "minutes", where: "online", skill: "none" },
-
   // Biology
   { year: 1900, field: "biology", title: "Counting birds instead of shooting them",
     who: "Frank Chapman and 27 observers",
@@ -217,22 +204,6 @@ window.CS_ACHIEVEMENTS = [
     who: "Folding@home donors",
     text: "When the project turned to SARS-CoV-2, hundreds of thousands of people joined. Combined, their machines passed one exaFLOPS, faster than any supercomputer of the time.",
     catalog: "> 1 exaFLOPS", link: "https://foldingathome.org" },
-
-  { name: "Stall Catchers", field: "biology", icon: "fa-solid fa-brain", url: "https://stallcatchers.com",
-    desc: "Watch short videos of blood flow in mouse brains and mark stalled vessels to speed up Alzheimer's research at Cornell.",
-    time: "minutes", where: "online", skill: "none" },
-  { name: "Eterna", field: "biology", icon: "fa-solid fa-dna", url: "https://eternagame.org",
-    desc: "Design RNA molecules in a puzzle game. The best player designs are synthesised and tested in real labs.",
-    time: "hours", where: "online", skill: "none" },
-  { name: "Penguin Watch", field: "biology", icon: "fa-solid fa-snowflake", url: "https://www.zooniverse.org/projects/penguintom79/penguin-watch",
-    desc: "Count penguin adults, chicks and eggs in camera images from Antarctica to track colonies and their environment.",
-    time: "minutes", where: "online", skill: "none" },
-  { name: "Squirrel Mapper", field: "biology", icon: "fa-solid fa-paw", url: "https://www.zooniverse.org/projects/bcosentino/squirrelmapper",
-    desc: "Classify squirrel coat colours in photos to measure natural selection happening in cities and suburbs.",
-    time: "minutes", where: "online", skill: "none" },
-  { name: "Rosetta@home", field: "biology", icon: "fa-solid fa-server", url: "https://boinc.bakerlab.org/rosetta/",
-    desc: "Lend idle computer time to the Baker lab for protein structure prediction and design.",
-    time: "ongoing", where: "idle", skill: "none" },
 
   // Mathematics
   { year: 1976, field: "mathematics", title: "A homemaker finds new pentagon tilings",
@@ -271,16 +242,6 @@ window.CS_ACHIEVEMENTS = [
     who: "Equational Theories Project contributors",
     text: "Terence Tao's crowdsourced project mapped which of 4,694 simple algebraic laws imply which others. Volunteers combined hand proofs, automated provers and Lean formalisation.",
     catalog: "Equational Theories Project", link: "https://teorth.github.io/equational_theories/" },
-
-  { name: "LODA", field: "mathematics", icon: "fa-solid fa-code", url: "https://loda-lang.org",
-    desc: "Mine programs that compute OEIS integer sequences, by volunteer computing through BOINC or by contributing code.",
-    time: "ongoing", where: "idle", skill: "none" },
-  { name: "NumberFields@home", field: "mathematics", icon: "fa-solid fa-superscript", url: "https://numberfields.asu.edu/NumberFields/",
-    desc: "An Arizona State University BOINC project that searches for number fields with special properties.",
-    time: "ongoing", where: "idle", skill: "none" },
-  { name: "Explicit analytic number theory network", field: "mathematics", icon: "fa-solid fa-diagram-project", url: "https://terrytao.wordpress.com/2026/01/15/the-integrated-explicit-analytic-number-theory-network/",
-    desc: "Terence Tao's crowdsourced project, launched in January 2026, to formalise explicit prime number theorem results in Lean.",
-    time: "ongoing", where: "online", skill: "some" },
 
   // AI
   { year: 2017, field: "ai", title: "An open voice dataset from donated speech",

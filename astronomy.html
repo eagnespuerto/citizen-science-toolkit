@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Astronomy Citizen Science</title>
+  <meta name="description" content="Astronomy has the longest tradition of amateur discovery of any science. Today&#x27;s telescopes produce far more data than professionals can inspect, so human eyes are still in demand.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='13' cy='13' r='8' fill='none' stroke='%231d5c8f' stroke-width='3'/%3E%3Cpath d='M19 19l8 8' stroke='%231d5c8f' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Young+Serif&display=swap">
+  <!-- Icons: Font Awesome Free 6 (icons CC BY 4.0, https://fontawesome.com/license/free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i>Citizen Science Toolkit</a>
+      <button class="theme-btn" type="button" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+      <button class="theme-btn menu-btn" type="button" aria-label="Menu" aria-expanded="false"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i>Home</a>
+        <a href="basics.html"><i class="fa-solid fa-book" aria-hidden="true"></i>Basics</a>
+        <a href="astronomy.html"><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>Astronomy</a>
+        <a href="biology.html"><i class="fa-solid fa-dna" aria-hidden="true"></i>Biology</a>
+        <a href="mathematics.html"><i class="fa-solid fa-square-root-variable" aria-hidden="true"></i>Mathematics</a>
+        <a href="ai.html"><i class="fa-solid fa-microchip" aria-hidden="true"></i>AI</a>
+        <a href="projects.html"><i class="fa-solid fa-compass" aria-hidden="true"></i>Projects</a>
+        <a href="achievements.html"><i class="fa-solid fa-trophy" aria-hidden="true"></i>Achievements</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+<header class="page-head field-head f-astronomy">
+  <i class="big-ic fa-solid fa-star-half-stroke" aria-hidden="true"></i>
+  <span class="eyebrow">Field guide · Astronomy</span>
+  <h1>Astronomy</h1>
+  <p class="lede">Astronomy has the longest tradition of amateur discovery of any science. Today's telescopes produce far more data than professionals can inspect, so human eyes are still in demand.</p>
+</header>
+
+<section class="section">
+  <header><h2>Why volunteers matter here</h2></header>
+  <div class="grid-3">
+<div class="info"><h3><i class="fa-solid fa-eye" aria-hidden="true"></i>Eyes beat algorithms on oddities</h3><p>Software finds what it was built to find. Volunteers keep spotting objects nobody predicted, from Hanny's Voorwerp to Boyajian's star.</p></div>
+<div class="info"><h3><i class="fa-solid fa-earth-europe" aria-hidden="true"></i>The sky is big and always changing</h3><p>Comets, supernovae and impacts happen anywhere, any night. A worldwide network of backyard observers catches events that scheduled telescopes miss.</p></div>
+<div class="info"><h3><i class="fa-solid fa-database" aria-hidden="true"></i>Surveys outpace their teams</h3><p>Missions like TESS, WISE and the Vera C. Rubin Observatory produce millions of images. Volunteers triage them and label training data.</p></div>
+  </div>
+</section>
+
+<section class="section">
+  <header><h2>What you need</h2></header>
+  <div class="prose"><ul><li>Nothing: most online projects need only a browser.</li><li>Binoculars and a star chart for variable-star estimates or Globe at Night.</li><li>A small telescope and camera for transit timing or planetary imaging.</li><li>A free account on Zooniverse; for observing, the AAVSO or a local astronomy club.</li></ul></div>
+</section>
+
+<section class="section" data-projects="astronomy">
+  <header><h2>Projects to join</h2><span class="count"></span></header>
+  <div class="filters" role="group" aria-label="Filter by time">
+    <span class="lbl">Time</span>
+    <button class="chip" data-key="time" data-value="all" aria-pressed="true">Any</button>
+    <button class="chip" data-key="time" data-value="minutes" aria-pressed="false"><i class="fa-regular fa-clock" aria-hidden="true"></i>Minutes</button>
+    <button class="chip" data-key="time" data-value="hours" aria-pressed="false"><i class="fa-solid fa-hourglass-half" aria-hidden="true"></i>Hours</button>
+    <button class="chip" data-key="time" data-value="ongoing" aria-pressed="false"><i class="fa-solid fa-rotate" aria-hidden="true"></i>Ongoing</button>
+  </div>
+  <div class="projects"></div>
+</section>
+
+<section class="section" data-ledger="astronomy">
+  <header><h2>Volunteer achievements</h2><span class="count"></span></header>
+  <ol class="ledger"></ol>
+  <p><a href="achievements.html">See the full achievements ledger →</a></p>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Citizen Science Toolkit is an open, static guide. Facts link to their sources; if you spot an error, open an issue on GitHub.</p>
+      <p>Icons by <a href="https://fontawesome.com" target="_blank" rel="noopener">Font Awesome Free</a> (CC BY 4.0). Content MIT licensed.</p>
+    </div>
+  </footer>
+</body>
+</html>

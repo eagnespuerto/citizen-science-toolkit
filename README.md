@@ -1,4 +1,7 @@
 # citizen-science-toolkit
+
+**Live site: https://eagnespuerto.github.io/citizen-science-toolkit/**
+
 A handy static site full of information about citizen science, from the basics on research and journals to motivating achievements of citizen scientists. Current focus: Astronomy, Biology, Mathematics, and AI advancements.
 
 ## Pages
@@ -15,7 +18,7 @@ No build step. Open `index.html`, or serve the folder:
 ```sh
 python3 -m http.server 8000
 ```
-To publish, enable GitHub Pages on the `main` branch (root folder).
+Published with GitHub Pages from the `main` branch (root folder); every push to `main` redeploys the site.
 
 ## Editing content
 Projects and achievements live in `assets/js/data.js`; add an object to `CS_PROJECTS` or `CS_ACHIEVEMENTS` and it appears on the finder, ledger and matching field page. Styles are in `assets/css/style.css` (light and dark themes via CSS tokens).

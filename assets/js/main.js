@@ -128,7 +128,7 @@
     const fixed = el.dataset.ledger;
     const list = el.querySelector(".ledger");
     const count = el.querySelector(".count");
-    const state = { field: fixed === "all" ? "all" : fixed, order: "asc" };
+    const state = { field: fixed === "all" ? "all" : fixed, order: "desc" };
     const hash = location.hash.slice(1);
     if (fixed === "all" && F()[hash]) {
       state.field = hash;
